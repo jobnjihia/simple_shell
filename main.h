@@ -7,5 +7,9 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+
 
 #endif
