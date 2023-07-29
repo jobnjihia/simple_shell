@@ -6,7 +6,7 @@
  *
  * Return: 0 on success
  */
-int main2(void)
+int print_current_time(void)
 {
 	struct tm *localTime;
 	char timeString[50];
