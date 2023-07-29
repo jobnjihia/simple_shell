@@ -1,10 +1,10 @@
 #include "shell.h"
 /**
- * execute - execute a command with its entire path variables.
- * @data: a pointer to the program's data
- * Return: If sucess returns zero, otherwise, return -1.
+ * exec - execute user command input path variables.
+ * @data: ptr data for the program
+ * Return: 0 on success, else return -1.
  */
-int execute(program_data *data)
+int exec(program_data *data)
 {
 	int status, retrieve = 0;
 	pid_t young_pid;

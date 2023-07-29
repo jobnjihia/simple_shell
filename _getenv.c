@@ -21,12 +21,12 @@ char** _getenv(char *envp)
 		perror("Memory allocation failed");
 	}
 	
-	env = envp;
+	env_array = envp[i];
 	while (*env != NULL)
 	{
 		int length = strlen(*env);
 		env_array[i] = (char*)malloc((length + 1) * sizeof(char));
-		if (env_array[i] == NULL);
+		if (env_array[i] == NULL)
 	       {
 		       perror("Memory allocation failed. ");
 	       }
